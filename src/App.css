@@ -1,38 +1,130 @@
-.App {
+@keyframes header {
+  0% {
+    background-color: blue;
+  }
+
+  50% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: red;
+  }
+
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.body {
+  background-image: radial-gradient(white, red, white, blue);
+}
+
+.header {
+  text-align: center;
+  color: blue;
+  border-radius: 12px;
+  animation-name: header;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#wrapper {
+  justify-content: center;
+  align-self: center;
+
+}
+
+#quote-box {
+  width: 60%;
+  height: 60vh;
+  display: table;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  font-family: 'Courier New', monospace;
+  font-weight: 1000;
+  border-radius: 20px;
+  background-color: black;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote-text {
+  text-align: center;
+  width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote-author {
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quote-button {
+  width: 200px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: block;
+  background-color: orange;
+  font-weight: 600;
+  color: black;
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: 4px solid red;
 }
 
-.App-link {
-  color: #61dafb;
+.quote-button:hover {
+  color: green;
+  background-color: yellow;
+  padding: 24px 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quote-button:active {
+  color: rgb(245, 12, 12);
+  background-color: rgb(2, 2, 2);
+  padding: 24px 40px;
+}
+
+.twit-button {
+  color: blue;
+  width: 100;
+  
+}
+
+.button-one {
+  width: 50px;
+  margin: auto;
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 40px;
+  border: 4px solid blue;
+}
+
+.text {
+  font-size: 40px;
+  margin-top: 4rem;
+  background-image: repeating-linear-gradient(to left, indigo, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.author {
+  font-size: 20px;
+  text-align: right;
+  background-image: repeating-linear-gradient(to left, indigo, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  text-align: center;
 }
