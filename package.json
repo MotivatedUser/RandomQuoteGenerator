@@ -1,5 +1,6 @@
 {
   "name": "random-quote-project",
+  "homepage": "https://MotivatedUser.github.io/RandomQuoteGenerator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
