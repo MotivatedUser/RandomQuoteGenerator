@@ -1,3 +1,33 @@
+Quote Generator
+This is a simple React web application that generates random quotes using an array of quotes as the data source. The user can click a button to get a new random quote, and can also click a button to tweet the current quote.
+
+Technologies Used
+React
+React DOM
+Font Awesome
+react-icons
+Formik
+Bootstrap
+react-bootstrap
+styled-components
+GitHub
+gh-pages
+
+Learning Outcome
+In this project, I demonstrated proficiency in working with React hooks such as useState and useEffect to manage state and lifecycle methods respectively. I implemented the use of an external data source, specifically the QUOTES array, to dynamically display random quotes and authors. Additionally, I applied CSS styling and utilized external libraries like font-awesome to enhance the visual appeal of the application. By using event listeners and DOM manipulation, I was able to create interactivity and user engagement. Furthermore, I developed a deeper understanding of React components and modularization by breaking down the application into smaller reusable pieces, specifically the QuoteGenerator component. Overall, this project helped me improve my React skills and gain a better understanding of front-end development concepts.
+
+Deployment
+This app is deployed using GitHub Pages.
+
+Usage
+To use the app, simply open the deployed website and click the "New Quote" button to generate a new random quote. You can also click the "Tweet" button to share the current quote on Twitter.
+
+Credits
+This project was completed by Doug Altermatt.
+
+License
+This project is licensed under the MIT License.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

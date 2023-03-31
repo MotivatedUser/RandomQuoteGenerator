@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { QUOTES } from '../shared/QUOTES';
 
 
-function YourComponent() {
+function QuoteGenerator() {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
 
@@ -42,4 +42,4 @@ function YourComponent() {
   );
 }
 
-export default YourComponent;
+export default QuoteGenerator;

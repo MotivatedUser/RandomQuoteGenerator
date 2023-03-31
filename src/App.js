@@ -1,10 +1,10 @@
 import './App.css';
-import YourComponent from './app/components/QuoteGenerator';
+import QuoteGenerator from './app/components/QuoteGenerator';
 
 function App() {
   return (
     <div className="App">
-      <YourComponent />
+      <QuoteGenerator />
     </div>
   );
 }
